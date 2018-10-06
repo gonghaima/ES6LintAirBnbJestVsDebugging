@@ -1,2 +1,2 @@
 # nodevscodedebugging
-boilerplate for ES6 and debugging enabled for VS Code
+boilerplate for ES6 and debugging enabled for VS Code and Jest test/coverage
