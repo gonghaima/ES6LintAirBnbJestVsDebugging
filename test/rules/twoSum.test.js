@@ -1,4 +1,4 @@
-import twoSum from '../../src/rules/twoSum';
+import twoSum from '../../src/rules/twoSum/twoSum';
 import { nums, target } from '../mock/twoSumsData';
 
 test('twoSum rule should return the first match', () => {
