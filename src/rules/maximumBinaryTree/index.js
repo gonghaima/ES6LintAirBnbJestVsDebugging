@@ -1,6 +1,7 @@
 function TreeNode(val) {
   this.val = val;
-  this.left = this.right = null;
+  this.left = null;
+  this.right = null;
 }
 
 const getAListNode = (currentNode, arr) => {
@@ -29,8 +30,8 @@ const constructMaximumBinaryTree = nums => {
 
   const root = new TreeNode(max);
 
-  root.left = getAListNode(root, initLeft);
-  root.right = getAListNode(root, initRight);
+  root.left = initLeft.length > 0 ? getAListNode(root, initLeft) : null;
+  root.right = initRight.length > 0 ? getAListNode(root, initRight) : null;
   return root;
 };
 
