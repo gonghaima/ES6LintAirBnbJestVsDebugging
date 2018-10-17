@@ -1,4 +1,3 @@
-
 Given an integer array with no duplicates. A maximum tree building on this array is defined as follow:
 
 The root is the maximum number in the array.
@@ -10,6 +9,9 @@ Example 1:
 Input: [3,2,1,6,0,5]
 Output: return the tree root node representing the following tree:
 
+<pre><b>Input:</b> [3,2,1,6,0,5]
+<b>Output:</b> return the tree root node representing the following tree:
+
       6
     /   \
    3     5
@@ -17,5 +19,7 @@ Output: return the tree root node representing the following tree:
      2  0   
        \
         1
+</pre>
+
 Note:
 The size of the given array will be in the range [1,1000].
