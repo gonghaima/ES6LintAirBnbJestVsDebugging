@@ -9,7 +9,8 @@
     "test-coverage": "jest --coverage",
     "build": "babel src -d dist --source-maps",
     "bn": "babel server --out-dir build --presets=es2015 && webpack",
-    "start": "babel-node ./src/index.js",
+    "start": "babel-node",
+    "start-index": "babel-node ./src/index.js",
     "debug": "babel-node --inspect ./src/index.js",
     "lint": "eslint . --ext .js --quiet --fix"
   },
